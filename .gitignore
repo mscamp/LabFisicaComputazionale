@@ -1,6 +1,5 @@
 # Files
 *.pdf
-*.png
 *.out
 !esercizi.pdf
 
