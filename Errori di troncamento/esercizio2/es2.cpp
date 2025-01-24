@@ -10,14 +10,14 @@ int main(int argc, char ** argv)
 		return 1;
 	}
 
-	else if(atoi(argv[1]) <= 0)
+	else if(std::stoi(argv[1]) <= 0)
 	{
 		std::cout << "Inserire un numero intero maggiore o uguale di 1." << '\n';
 		return 1;
 	}
 
 	// Dichiarazione variabili 
-	int n = atoi(argv[1]);
+	int n = std::stoi(argv[1]);
 
 	// Precisione singola
 	float phi1_f = std::numbers::phi_v<float> - 1.0; // 0.618

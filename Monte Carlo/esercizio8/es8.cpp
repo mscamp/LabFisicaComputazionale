@@ -14,14 +14,14 @@ int main (int argc, char ** argv)
 		return 1;
 	}
 
-	else if (atoi(argv[1]) <= 0)
+	else if (std::stoi(argv[1]) <= 0)
 	{
 		std::cout << "Inserisci un numero intero positivo e diverso da zero." << '\n';
 		return 1;
 	}
 
 	// Dichiarazione variabili
-	int m = atoi(argv[1]);
+	int m = std::stoi(argv[1]);
 	int n_intervals = 20;
 	int n_points = 100000;
 	double mc_integral = 0.0;

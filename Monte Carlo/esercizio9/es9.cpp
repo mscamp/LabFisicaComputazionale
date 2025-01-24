@@ -15,7 +15,7 @@ int main(int argc, char ** argv)
 		return 1;
 	}
 
-	else if(atoi(argv[1]) <= 0)
+	else if(std::stoi(argv[1]) <= 0)
 	{
 		std::cout << "N deve essere strettamente positivo." << '\n';
 		return 1;
@@ -24,7 +24,7 @@ int main(int argc, char ** argv)
 	// Dichiarazione variabili
 	double a = -1.0;
 	double b = 1.0;
-	int N = atoi(argv[1]); // Numero di elementi su cui viene effettuata la media
+	int N = std::stoi(argv[1]); // Numero di elementi su cui viene effettuata la media
 	int M = 10000; // Dimensione del pacchetto (fissata)
 
 	// Vettori dei sample

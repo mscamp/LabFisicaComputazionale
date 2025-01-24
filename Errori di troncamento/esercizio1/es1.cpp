@@ -15,14 +15,14 @@ int main(int argc, char ** argv)
 		return 1;
 	}
 
-	else if(atoi(argv[1]) < spacing)
+	else if(std::stoi(argv[1]) < spacing)
 	{
 		std::cout << "Inserire un numero intero maggiore o uguale a 100." << '\n';
 		return 1;
 	}
 
 	// Assegnamento variabili
-	N = atoi(argv[1]);
+	N = std::stoi(argv[1]);
 
 	// Riempie il vector con punti da 1 a N, con uguale spaziatura
 	for(int i = spacing; i <= N; i += spacing)

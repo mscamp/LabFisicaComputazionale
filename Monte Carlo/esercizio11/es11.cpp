@@ -14,7 +14,7 @@ int main (int argc, char ** argv)
 		return 1;
 	}
 
-	else if(atoi(argv[1]) <= 0)
+	else if(std::stoi(argv[1]) <= 0)
 	{
 		std::cout << "N deve essere strettamente positivo." << '\n';
 		return 1;
@@ -24,7 +24,7 @@ int main (int argc, char ** argv)
 	srand(time(NULL));
 
 	// Dichiarazione variabili
-	int N = atoi(argv[1]);
+	int N = std::stoi(argv[1]);
 	std::vector<double> rand_1;
 	std::vector<double> rand_2;
 	std::vector<double> rand_3;
