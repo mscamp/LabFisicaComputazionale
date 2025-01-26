@@ -45,13 +45,6 @@ int main(int argc, char ** argv)
             scrivi_su_file(file_name_RK_4, y_sol_RK_4.first, y_sol_RK_4.second.at(m));
         }
 
-        // Reset dei vettori
-        y_sol_eulero.first.clear();
-        y_sol_eulero.second.clear();
-        y_sol_RK_2.first.clear();
-        y_sol_RK_2.second.clear();
-        y_sol_RK_4.first.clear();
-        y_sol_RK_4.second.clear();
     }
 
     return 0;
