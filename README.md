@@ -1,9 +1,8 @@
 # Laboratorio di Fisica Computazionale, A.A. 2023-24
 
-<p align="center">
-    <img src="lorenz_attractor.gif" alt="lorenz_attractor" style="display: inline-block; margin: 0 10px; width: 50%;">
-    <img src="three_body.gif" alt="three_body" style="display: inline-block; margin: 0 10px; width: 50%;">
-</p>
+
+| ![Lorenz Attractor](lorenz_attractor.gif) | ![Three Body Problem](three_body.gif) |
+|---------------------------------------------|----------------------------------------|
 
 ## Introduzione
 In questa repository si possono trovare gli esercizi per il corso di "Laboratorio di Fisica Computazionale", svoltosi nell'anno accademico 2023-24. Il linguaggio utilizzato per la risoluzione degli esercizi è C++, insieme a Python per disegnare i plot.
