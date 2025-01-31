@@ -1,8 +1,8 @@
 # Laboratorio di Fisica Computazionale, A.A. 2023-24
 
 <p align="center">
-	<img title="lorenz_attractor" alt="lorenz_attractor" src="/Equazioni\ differenziali/esercizio17/Grafici/RK4_3d_animation_3000.gif" style="display: block; margin: 0 auto;" >
-	<img title="three_body" alt="three_body" src="/Equazioni\ differenziali/esercizio18/es18_b/Grafici/RK4_3d_animation_10000.gif" style="display: block; margin: 0 auto;" >
+	<img title="lorenz_attractor" alt="lorenz_attractor" src="Equazioni\ differenziali/esercizio17/Grafici/RK4_3d_animation_3000.gif" style="display: block; margin: 0 auto;" >
+	<img title="three_body" alt="three_body" src="Equazioni\ differenziali/esercizio18/es18_b/Grafici/RK4_3d_animation_10000.gif" style="display: block; margin: 0 auto;" >
 </p>
 
 ## Introduzione
