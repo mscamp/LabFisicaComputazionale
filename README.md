@@ -1,8 +1,8 @@
 # Laboratorio di Fisica Computazionale, A.A. 2023-24
 
 <p align="center">
-    <img src="lorenz_attractor.gif" alt="lorenz_attractor" style="display: inline-block; margin: 0 10px;">
-    <img src="three_body.gif" alt="three_body" style="display: inline-block; margin: 0 10px;">
+    <img src="lorenz_attractor.gif" alt="lorenz_attractor" style="display: inline-block; margin: 0 10px; width: 50%;">
+    <img src="three_body.gif" alt="three_body" style="display: inline-block; margin: 0 10px; width: 50%;">
 </p>
 
 ## Introduzione
